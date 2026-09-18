@@ -1,0 +1,27 @@
+{
+  "name": "superrad/wp-mu-plugins",
+  "description": "Super Rad's shared WordPress must-use plugins, for Bedrock sites built from gosuperrad/bedrock-coolify",
+  "type": "wordpress-muplugin",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/gosuperrad/wp-mu-plugins",
+  "authors": [
+    {
+      "name": "Super Rad",
+      "homepage": "https://superrad.dev"
+    }
+  ],
+  "keywords": ["wordpress", "mu-plugin", "bedrock"],
+  "support": {
+    "issues": "https://github.com/gosuperrad/wp-mu-plugins/issues",
+    "source": "https://github.com/gosuperrad/wp-mu-plugins"
+  },
+  "require": {
+    "php": ">=8.0",
+    "composer/installers": "^2.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}
