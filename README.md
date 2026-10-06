@@ -13,6 +13,7 @@ a fix to one of them was a pull request per site repo
 | `src/superrad-image-formats.php` | WebP (or AVIF) output for uploaded JPEGs, via WordPress's own `image_editor_output_format` filter. |
 | `src/s3-uploads-r2.php` | Points `humanmade/s3-uploads` at `S3_UPLOADS_ENDPOINT` with path-style URLs. Inert unless that constant is set. |
 | `src/superrad-custom-login/` | The Super Rad login screen styling. |
+| `src/superrad-html-cache.php` | Sends `Cache-Control: no-cache` on anonymous front-end HTML, which a Cloudflare HTML cache rule respecting the origin's browser TTL relies on. The `superrad_html_cache_control` filter changes or disables it. |
 
 ## Installing
 
