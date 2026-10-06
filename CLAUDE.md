@@ -5,8 +5,8 @@ human-facing overview and is not repeated here.
 
 **What each module does, and why each load-bearing detail is the way it is,
 lives in bedrock-coolify's `CLAUDE.md`**, under "WebP output is a WordPress
-filter", "The staging mail guard needs two filters" and "`DISABLED_PLUGINS`
-needs two filters". It stays there because every site copies that file, and
+filter", "Anonymous HTML sends `Cache-Control: no-cache`", "The staging mail
+guard needs two filters" and "`DISABLED_PLUGINS` needs two filters". It stays there because every site copies that file, and
 the reasoning is about how the sites behave. Read the relevant section before
 changing a module. This file covers the package itself.
 
